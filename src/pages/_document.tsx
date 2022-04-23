@@ -5,6 +5,13 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+
           <link rel="icon" href="/favicon.ico" />
 
           <meta charSet="utf-8" />
@@ -12,6 +19,11 @@ export default class MyDocument extends Document {
           <meta property="og:locale" content="pt_BR" />
           <meta property="og:site_name" content="Digital Agency Enver" />
           <meta name="author" content="Leonardo Luis de Vargas" />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet"
+          />
         </Head>
 
         <body>

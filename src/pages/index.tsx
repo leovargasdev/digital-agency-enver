@@ -13,6 +13,9 @@ export default function Home() {
       <h1>
         olar <IconCircles />
       </h1>
+      <h2>
+        olar <IconCircles />
+      </h2>
     </>
   )
 }
