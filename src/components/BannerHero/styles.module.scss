@@ -1,0 +1,58 @@
+.background {
+  height: 712px;
+
+  background-image: url('/background-section-banner.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto 630px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  h1, p {
+    width: 100%;
+    max-width: 562px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    line-height: 5.25rem;
+  }
+
+  p {
+    font-size: 1.375rem;
+    line-height: 2.5rem;
+    color: var(--secondary);
+    letter-spacing: -0.66px;
+
+    margin: 24px 0 50px;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+
+    width: 204px;
+    height: 58px;
+    border: 0;
+    border-radius: 4px;
+    background: var(--link);
+
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 800;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+}
