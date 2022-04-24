@@ -1,6 +1,5 @@
 .container {
   margin-top: 140px;
-  padding-bottom: 940px;
 }
 
 .text {
@@ -29,28 +28,21 @@
 
   width: 100%;
   height: 670px;
+  overflow: hidden;
   border-radius: 4px;
 
-  background-image: url('/cover-video.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-  &::before {
-    content: '';
-
-    position: absolute;
-    inset: 0;
-
+  img {
     width: 100%;
     height: 100%;
-    opacity: 0;
-    background: var(--background);
+    object-fit: cover;
 
-    transition: opacity 0.4s;
+    transition: all 0.4s;
   }
 
   button {
+    position: absolute;
+    inset: 0;
+
     display: flex;
 
     margin: auto;
@@ -75,6 +67,11 @@
   &:hover {
     &::before {
       opacity: 0.2;
+    }
+
+    img {
+      transform: scale(1.1);
+      filter: brightness(0.8) blur(1px);
     }
 
     button {
