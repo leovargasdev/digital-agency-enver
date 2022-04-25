@@ -3,7 +3,7 @@ import services from './data'
 import styles from './styles.module.scss'
 
 export const Services = () => (
-  <section style={{ marginTop: '150px' }}>
+  <section>
     <div className={styles.container}>
       <h1>The Service We Provide For You</h1>
 
