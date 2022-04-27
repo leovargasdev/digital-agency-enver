@@ -1,0 +1,33 @@
+.background {
+  background: var(--black);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 560px;
+
+  h1 {
+    font-size: 3.75rem;
+    line-height: 4.125rem;
+
+    width: 100%;
+    max-width: 826px;
+  }
+
+  button {
+    width: 200px;
+    height: 60px;
+
+    border: 0;
+    border-radius: 4px;
+    background: var(--link);
+
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+  }
+}

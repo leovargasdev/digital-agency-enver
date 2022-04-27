@@ -5,6 +5,8 @@ import { BannerHero } from 'components/BannerHero'
 import { Apresentation } from 'components/Apresentation'
 import { Services } from 'components/Services'
 import { Portofolio } from 'components/Portofolio'
+import { Contact } from 'components/Contact'
+import { Footer } from 'components/Footer'
 
 import styles from 'styles/home.module.scss'
 
@@ -20,6 +22,8 @@ export default function Home() {
       <Apresentation />
       <Services />
       <Portofolio />
+      <Contact />
+      <Footer />
     </div>
   )
 }

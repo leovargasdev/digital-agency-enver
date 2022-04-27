@@ -61,10 +61,6 @@
   }
 
   &:hover {
-    &::before {
-      opacity: 0.2;
-    }
-
     img {
       transform: scale(1.1);
       filter: brightness(0.8) blur(1px);
