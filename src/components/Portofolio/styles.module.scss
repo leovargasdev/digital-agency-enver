@@ -1,3 +1,10 @@
+.background {
+  background-image: url('/background-icons/circles-1.png'), url('/background-icons/line.png');
+  background-size: 84px, 92px;
+  background-repeat: no-repeat;
+  background-position: right 120px, 70px bottom;
+}
+
 .title {
   font-size: 3.625rem;
   line-height: 5rem;

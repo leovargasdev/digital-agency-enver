@@ -2,7 +2,7 @@ import styles from './styles.module.scss'
 
 export const Portofolio = () => (
   <section>
-    <div>
+    <div className={styles.background}>
       <h1 className={styles.title}>Our Awesome Portofolio</h1>
 
       <div className={styles.projects}>
