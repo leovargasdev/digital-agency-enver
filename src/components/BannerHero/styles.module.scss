@@ -5,6 +5,19 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: auto 630px;
+
+  @media(max-width: 768px) {
+    height: 550px;
+
+    background-size: 760px;
+    background-position: left;
+  }
+
+  @media(max-width: 650px) {
+    height: 700px;
+    background-size: 650px;
+    background-position: right bottom;
+  }
 }
 
 .container {
@@ -55,4 +68,47 @@
     }
   }
 
+  @media(max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+      line-height: 3.25rem;
+      max-width: 430px;
+    }
+  
+    p {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      max-width: 400px;
+  
+      margin: 18px 0 40px;
+    }
+  
+    button {
+      height: 50px;
+      font-size: 1.125rem;
+    }
+  }
+
+  @media(max-width: 650px) {
+    justify-content: flex-start;
+    padding-top: 54px;
+
+    h1 {
+      font-size: 2.625rem;
+      line-height: 4rem;
+      max-width: 100%;
+    }
+  
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      max-width: 100%;
+    }
+  
+    button {
+      width: 166px;
+      height: 44px;
+      font-size: 1rem;
+    }
+  }
 }
