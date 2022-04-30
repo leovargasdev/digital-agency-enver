@@ -21,9 +21,9 @@ export default function Home() {
       <BannerHero />
       <Apresentation />
       <Services />
-      {/* <Portofolio />
+      <Portofolio />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
