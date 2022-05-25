@@ -1,11 +1,18 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from './styles.module.scss'
 
 export const Header = () => {
   const [activeToggle, setActiveToggle] = useState(false)
 
+  useEffect(() => {
+    const valueOverflow = activeToggle ? 'hidden' : 'auto'
+    document.body.style.overflow = valueOverflow
+
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [activeToggle])
+
   return (
-    <header>
+    <header style={{ zIndex: 10 }}>
       <div className={styles.container}>
         <img src="/logo.svg" alt="Logo da agência Enver" />
 

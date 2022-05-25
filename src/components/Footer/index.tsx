@@ -17,7 +17,7 @@ export const Footer = () => (
         </li>
       </ul>
 
-      <h6>© 2020 Enver, All Rights Reserved</h6>
+      <h6>© {new Date().getFullYear()} Enver, All Rights Reserved</h6>
     </div>
   </footer>
 )
